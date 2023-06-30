@@ -1,6 +1,6 @@
 """
 
-Cobalt Strike - API Hashing Decoding Script
+Cobalt Strike - API Hashing Decoding Script (CRC32/JRM)
 
 Matthew @ Embee_research @ Huntress
 
