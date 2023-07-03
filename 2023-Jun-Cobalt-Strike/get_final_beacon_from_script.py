@@ -43,9 +43,9 @@ def main():
 
     #Decode utf-16
     try:
-        pwsh = pwsh.decode('utf-16')
-    except:
         pwsh = pwsh.decode('utf-8')
+    except:
+        pwsh = pwsh.decode('utf-16')
 
     #Search for base64 blob
     match = re.search("[a-zA-Z0-9\+\=\/]{1000,}",pwsh).group(0)
