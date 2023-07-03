@@ -5,6 +5,8 @@ Obtains beacon file from initial powershell script
 
 Matthew @ embee_research @ Huntress
 
+Sample: c28d5f78085140c0a796ec9df7d5e69e4912b2326d4dbf7c76239dc8c357d41d
+
 """
 
 
