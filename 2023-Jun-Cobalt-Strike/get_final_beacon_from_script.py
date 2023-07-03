@@ -1,12 +1,16 @@
 """
-Decode powershell cobalt strike loaders
+Decode powershell cobalt strike loader
 
-Obtains beacon file from initial powershell script
+Obtains beacon binary from initial powershell script
 
 Matthew @ embee_research @ Huntress
 
 Sample1: c28d5f78085140c0a796ec9df7d5e69e4912b2326d4dbf7c76239dc8c357d41d
 Sample2: 2dbeaf3c67d87f690842838ace165c7549dc1bbbd697ba11b997c1b1c39465a0
+
+Output is saved as final_cobalt_beacon.bin
+Output can be given to the sentinelone Cobalt strike parser script to extract config. 
+https://github.com/Sentinel-One/CobaltStrikeParser
 
 """
 
